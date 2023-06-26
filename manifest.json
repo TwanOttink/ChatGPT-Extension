@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "ChatGPT",
+    "version": "1.0",
+    "description": "Opens ChatGPT in a new tab.",
+    "icons": {
+      "48": "icon.png"
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },              
+    "permissions": [
+      "tabs"
+    ]
+  }
+  
