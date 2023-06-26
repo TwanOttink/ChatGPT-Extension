@@ -12,7 +12,7 @@ This Firefox extension allows you to quickly access ChatGPT, an AI-powered chatb
 2. Open Firefox and enter about:debugging in the address bar.
 3. Click on "This Firefox" on the left sidebar.
 4. Click the "Load Temporary Add-on" button.
-5. Navigate to the extension directory and select the manifest.json file.
+5. Navigate to the extension directory and select the **manifest.json** file.
 
 # Usage
 1. Once the extension is installed, you will see the ChatGPT icon in the Firefox toolbar.
