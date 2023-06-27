@@ -24,6 +24,8 @@
         "default_icon": {
             "48": "icon48.png",
             "96": "icon96.png"
-        }
+        },
+        "default_title": "ChatGPT",
+        "default_popup": "popup.html"
     }
 }
