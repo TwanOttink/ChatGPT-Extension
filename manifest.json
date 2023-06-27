@@ -1,16 +1,29 @@
 {
     "manifest_version": 2,
-    "name": "ChatGPT",
     "version": "1.0",
+    "name": "ChatGPT",
     "description": "Opens ChatGPT in a new tab.",
     "icons": {
-      "48": "icon.png"
+        "48": "icon48.png",
+        "96": "icon96.png"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "test@example.com"
+        }
     },
     "browser_action": {
-        "default_icon": "icon.png",
-        "default_popup": "popup.html"
-    },              
-    "permissions": [
-      "tabs"
-    ]
-}  
+        "default_icon": {
+            "48": "icon48.png",
+            "96": "icon96.png"
+        }
+    }
+}
